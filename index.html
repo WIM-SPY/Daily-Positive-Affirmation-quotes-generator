@@ -11,18 +11,21 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Doto:ROND@0..100&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Pacifico&family=Rubik+Vinyl&display=swap"
         rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.18.0/dist/core.js"></script>
 </head>
 
 <body>
     <div class="container">
         <h1>Daily posiive Affirmation AI Generator</h1>
-        <form class="button">
-            <input type="text" placeholder="Daily Affirmation" autofocus required>
-            <input type="submit" />
+
+        <form class="button" id="affirmation-form">
+            <input type="text" id="affirmation-input" placeholder="Type your daily affirmation" autofocus required>
+            <input type="submit" value="Generate">
         </form>
+
         <br>
-        <div class="display"> Quote to be displayed here
-            <br>
+        <div class="display" id="display-affirmation">
+            Quote will be displayed here.
         </div><br>
         <footer>
             This project was coded by <a href="https://github.com/WIM-SPY" target="_blank">W.I.M</a>. It is
